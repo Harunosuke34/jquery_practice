@@ -14,6 +14,7 @@ $(document).ready(function() {
     $(this).fadeOut(3000); // フェードアウトする時間は3秒
   });
 
+
   // Q1-4 ボタンがクリックされた時の処理を設定、クリックしてボタンを大きくする
   $("#q4").on("click", function() {
     // クリックされたボタンに"large"というクラスを追加
@@ -33,6 +34,7 @@ $(document).ready(function() {
   $("#q6").click(function() {
     $(this).animate({ marginTop: "100px", marginLeft: "100px" }, 2000); // margin-top100pxとmargin-left100pxを指定し、2秒かけて動く
   });
+
 
 // Q1-7 ボタンがクリックされたときのイベントを処理するためのコールバック関数を定義
 $("#q7").on("click", function () {
