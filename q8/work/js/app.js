@@ -22,8 +22,9 @@ const settings = {
   //.doneが通信成功した時の処理、”response”が引数となっていて通信した結果を受け取ってい
   る
   $.ajax(settings).done(function (response) {
-  //.failが通信に失敗した時の処理、”err”にサーバーから送られてきたエラー内容を受け取って
-  いる。
+  //.failが通信に失敗した時の処理、”err”にサーバーから送られてきたエラー内容を受け取っている。
   }).fail(function (err) {
   });
   
+
+  //APIとは　https://data.wingarc.com/what-is-api-16084
